@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Bootstrap Portfolio</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+
+    <body>
+        <style>
+            header {
+                background-color: #fff;
+                border-bottom: 3px solid #ccc;
+                height: 63px;
+            }
+
+            .containerNav {
+                width: 960px;
+                margin: 0 auto;
+            }
+            
+            nav {
+                background-color: white;
+                width: 100%;
+                height: 60px;
+                line-height: 60px;
+                word-spacing: 10px;
+            }
+
+            .myPic {
+                margin-left: 20px;
+                border: 1px solid grey;
+                width: 250px;
+                height: 250px;
+                float: left;
+            }
+
+            h1 {
+                text-align: center;
+                height: 70px;
+                line-height: 70px;
+                background-color: #16c9ff;
+                margin-top: -10px;
+                color: white;
+                font-family: 'Georgia', Times, 'Times New Roman', serif;
+            }
+
+            .pageTitle {
+                background-color: #fff;
+                color: #16c9ff;
+                height: 60px;
+                margin-top: 10px;
+                text-align: left;
+                border-bottom: 3px solid #ccc;
+                margin-left: 20px;
+                margin-right: 20px;
+                font-family: 'Georgia', Times, 'Times New Roman', serif;
+            }
+
+            a:link {
+                color: #16c9ff;
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: #3561ff;
+            }
+
+            a:visited {
+                color: #e9c1ff;
+            }
+
+            .containerBody {
+                width: 960px;
+                height: 350px;
+                margin: 0 auto;
+                margin-top: 30px;
+                background-color: white;
+                border: 1px solid #ddd;
+            }
+
+            body {
+                background-image: url("assets/images/pink-marble.jpg");
+                margin: 0;
+                padding: 0;
+            }
+
+            p {
+                font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+                color: #777;
+                line-height: 26px;
+                margin: 5px;
+            }
+
+            .img-container {
+                width: 250px;
+                height: 175px;
+                margin: 20px;
+            }
+
+             footer {
+                border-top: 8px solid #16c9ff;
+                background-color: #666;
+                text-align: center;
+                height: 60px;
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%; 
+                padding: 10px;
+            }
+
+            #footer {
+                color: #fff;
+            }
+
+            @media screen and (max-width: 786px) {  
+            }
+
+            @media screen and (max-width: 600px) {
+                .containerNav {
+                    width: 100%;
+                    margin: 0 auto;
+                }
+                
+                .containerBody {
+                    width: 80%;
+                    margin-top: 120px;
+                    height: 800px;
+                }
+
+                .navPosition {
+                    background-color: white;
+                    border-bottom: 3px solid #ccc;
+                    text-align: center;
+                    margin-top: -10px;
+                }
+                
+                h1 {
+                    width: 100%;
+                }
+
+                .pageTitle {
+                    width: 90%;
+                }
+               
+            }
+
+        </style>
+    
+    <header>
+        <nav class="containerNav">
+            <div class="row">
+                <div class="col-md-8"><h1>Christina Lavingia</h1></div> 
+                    <div class="navPosition col-md-4">
+                        <a href="index.html">About</a> 
+                        <a href="portfolio.html">Portfolio</a> 
+                        <a href="contact.html">Contact</a>
+                    </div>
+            </div>
+        </nav>
+    </header>
+
+        <div class="containerBody">
+            <div class="row">
+                <div class="col-md-12"><h1 class="pageTitle">Portfolio</h1></div>
+            </div>
+            <article id="portfolioArticle">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="img-container" src="assets/images/water.jpg" alt="water">
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-container" src="assets/images/mountains.jpg" alt="mountains">
+                        </div>
+                            <div class="col-md-4">
+                            <img class="img-container" src="assets/images/seascape.jpg" alt="seascape">
+                        </div>
+                    </div>
+                </article>
+            </div>
+        <footer>
+            <p id="footer">Copyright©</p>
+        </footer>
+    </body>
+</html>
