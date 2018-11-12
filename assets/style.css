@@ -1,0 +1,83 @@
+body {
+    background-image: url("images/pink-marble.jpg");
+}
+
+footer {
+        position: fixed;
+        bottom: 0;
+        height: 50px;
+        line-height: 50px;
+        width: 100%; 
+}
+
+h1 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+input {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#button {
+    background-color: #4597AC;
+    width: 100px;
+    height: 40px;
+    margin: 10px 0px;
+    color: white;
+}
+
+#message {
+    height: 200px;
+}
+
+.img-container {
+    width: 90%;
+    height: 200px;
+    margin-left: 20px;
+}
+
+.containerPortfolio {
+    height: 350px;
+}
+
+@media only screen and (max-width: 768px) {  
+    .navPosition {
+        text-align: center !important;
+    }
+
+    .containerPortfolio {
+        height: 800px;
+    }
+
+    .img-container {
+        width: 60%;
+        margin-left: 20%;
+        margin-bottom: 10px;
+
+    }
+
+    .containerIndex {
+        height: 825px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {  
+    .containerPortfolio {
+        height: 750px;
+    }
+
+    .img-container {
+        width: 60%;
+        margin-left: 20%;
+        margin-bottom: 10px;
+
+    }
+
+    .containerIndex {
+        height: 1200px;
+    }
+
+}
